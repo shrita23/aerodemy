@@ -1,0 +1,93 @@
+const navigation = {
+    services: [
+        { name: "AICPP", href: "#" },
+        { name: "ICPP", href: "#" },
+        { name: "Flash Course", href: "#" },
+        { name: "DGCA Ground Classes", href: "#" },
+    ],
+    socials: [
+        { name: "Email", href: "#" },
+        { name: "Instagram", href: "#" },
+        { name: "Telegram", href: "#" },
+        { name: "Whatsapp", href: "#" },
+    ],
+    legal: [
+        { name: "Privacy Policy", href: "#" },
+        { name: "Terms Of Service", href: "#" },
+    ],
+};
+
+export default function Footer() {
+    return (
+        <footer className="black-bg-25" aria-labelledby="footer-heading">
+            <h2 id="footer-heading" className="sr-only">
+                Footer
+            </h2>
+            <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
+                <div className="xl:grid xl:grid-cols-3 xl:gap-8 justify-center">
+                    <img
+                        className="h-40 mx-auto"
+                        src="/biglogo.png"
+                        alt="Company name"
+                    />
+                    <div className="mt-16  gap-8 xl:col-span-2 xl:mt-0">
+                        <div className="flex justify-center flex-col md:flex-row items-center md:items-start md:gap-8">
+                            <div className="flex-1 text-center md:text-left">
+                                <h3 className="text-sm font-semibold leading-6 text-[#bf9b30]">
+                                    Courses
+                                </h3>
+                                <ul role="list" className="mt-6 space-y-4">
+                                    {navigation.services.map((item) => (
+                                        <li key={item.name}>
+                                            <a
+                                                href={item.href}
+                                                className="text-sm leading-6 text-gray-300 hover:text-white"
+                                            >
+                                                {item.name}
+                                            </a>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                            <div className="flex-1 mt-10 md:mt-0 text-center md:text-left">
+                                <h3 className="text-sm font-semibold leading-6 text-[#bf9b30]">
+                                    Socials
+                                </h3>
+                                <ul role="list" className="mt-6 space-y-4">
+                                    {navigation.socials.map((item) => (
+                                        <li key={item.name}>
+                                            <a
+                                                href={item.href}
+                                                className="text-sm leading-6 text-gray-300 hover:text-white"
+                                            >
+                                                {item.name}
+                                            </a>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+
+                            <div className="flex-1 mt-10 md:mt-0 text-center md:text-left">
+                                <h3 className="text-sm font-semibold leading-6 text-[#bf9b30]">
+                                    Legal
+                                </h3>
+                                <ul role="list" className="mt-6 space-y-4">
+                                    {navigation.legal.map((item) => (
+                                        <li key={item.name}>
+                                            <a
+                                                href={item.href}
+                                                className="text-sm leading-6 text-gray-300 hover:text-white"
+                                            >
+                                                {item.name}
+                                            </a>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    );
+}
