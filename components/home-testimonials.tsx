@@ -37,7 +37,7 @@ export default function MyApp() {
                     isIntrinsicHeight={true}
                     totalSlides={2}
                 >
-                    <h1 className="text-5xl font-bold xl:block hidden leading-tight text-white text-center underline decoration-[#bf9b30]">
+                    <h1 className="text-5xl font-bold xl:block leading-tight text-white text-center underline decoration-[#bf9b30]">
                         Student <span className="text-[#bf9b30]">Insights</span>
                     </h1>
 
