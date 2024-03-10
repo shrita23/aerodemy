@@ -7,7 +7,7 @@ export default function HomeHero() {
     return (
         <div className="relative isolate px-6 pt-14 lg:px-8 h-screen sm:h-fit">
             <div
-                className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+                className="absolute inset-x-0 -top-40 -z-50 transform-gpu overflow-hidden blur-3xl sm:-top-80"
                 aria-hidden="true"
             >
                 <div
@@ -34,7 +34,7 @@ export default function HomeHero() {
                             options={{
                                 strings: [
                                     `<span class="text-[#bf9b30]">Unsure</span> Where To Begin?`,
-                                    `Welcome To <span class="text-[#bf9b30]">Aerodemy Academy</span>!`,
+                                    `Welcome To <span class="text-[#bf9b30]">Aerodemy Aviation</span>!`,
                                 ],
                                 autoStart: true,
                                 loop: true,
@@ -59,7 +59,7 @@ export default function HomeHero() {
                 </div>
             </div>
             <div
-                className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+                className="absolute inset-x-0 top-[calc(100%-13rem)] -z-50 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
                 aria-hidden="true"
             >
                 <div

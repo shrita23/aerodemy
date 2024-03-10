@@ -2,37 +2,33 @@ const posts = [
     {
         id: 1,
         title: "Air Navigation",
-        href: "#",
+        href: "/airnav",
         description: "Course Description",
-        imageUrl:
-            "https://unsplash.com/photos/UOJ6vz2khrY/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cGlsb3RzfGVufDB8fHx8MTcwOTg3OTY1MXww&force=true&w=640",
+        imageUrl: "/airnav.jpg",
     },
 
     {
         id: 2,
-        title: "Avation MeteorologyP",
-        href: "/aicpp",
+        title: "Avation Meteorology",
+        href: "/avmet",
         description: "Course Description",
-        imageUrl:
-            "https://unsplash.com/photos/UOJ6vz2khrY/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cGlsb3RzfGVufDB8fHx8MTcwOTg3OTY1MXww&force=true&w=640",
+        imageUrl: "/airmet.jpg",
     },
 
     {
         id: 3,
         title: "Air Regulations",
-        href: "/flash",
+        href: "/airreg",
         description: "Course Description",
-        imageUrl:
-            "https://unsplash.com/photos/UOJ6vz2khrY/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cGlsb3RzfGVufDB8fHx8MTcwOTg3OTY1MXww&force=true&w=640",
+        imageUrl: "/airreg.jpeg",
     },
 
     {
         id: 4,
         title: "Technical General",
-        href: "/dgca",
+        href: "/techgen",
         description: "Course Description",
-        imageUrl:
-            "https://unsplash.com/photos/UOJ6vz2khrY/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cGlsb3RzfGVufDB8fHx8MTcwOTg3OTY1MXww&force=true&w=640",
+        imageUrl: "/techgen.jpg",
     },
     // More posts...
 ];
@@ -42,7 +38,7 @@ export default function Flash() {
         <div className="relative isolate py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl text-center">
-                    <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-[#bf9b30]">
+                    <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-[#bf9b30] underline">
                         Flash
                     </h2>
                     <p className="mt-10">Description</p>

@@ -15,7 +15,7 @@ export default function MyApp() {
     return (
         <div className="relative" id="reviews">
             <div
-                className="absolute inset-x-0 -top-40 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+                className="absolute inset-x-0 -top-40 transform-gpu overflow-hidden blur-3xl sm:-top-80 -z-50"
                 aria-hidden="true"
             >
                 <div
@@ -37,18 +37,10 @@ export default function MyApp() {
                     isIntrinsicHeight={true}
                     totalSlides={2}
                 >
-                    <h1 className="text-5xl font-bold xl:block hidden leading-tight text-white text-center">
-                        What our{" "}
-                        <span className="text-[#bf9b30]">customers</span> are
-                        <br />
-                        saying
+                    <h1 className="text-5xl font-bold xl:block hidden leading-tight text-white text-center underline decoration-[#bf9b30]">
+                        Student <span className="text-[#bf9b30]">Insights</span>
                     </h1>
-                    <h1 className="text-5xl font-bold xl:hidden block leading-tight lg:leading-10 text-white text-center">
-                        What our{" "}
-                        <span className="text-[#bf9b30]">customers</span> are
-                        <br />
-                        saying
-                    </h1>
+
                     <Slider>
                         <Slide index={0} tabIndex={0}>
                             <Testimonial />

@@ -45,7 +45,7 @@ export default function Example() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     return (
-        <header className="relative z-10 bg-black/25 lg:fixed lg:left-0 lg:top-0 lg:right-0 lg:backdrop-blur-md lg:z-20">
+        <header className="z-10 bg-black/25 fixed left-0 top-0 right-0 backdrop-blur-md z-20">
             <nav
                 className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 gap-4"
                 aria-label="Global"
@@ -165,7 +165,7 @@ export default function Example() {
                             </Popover.Panel>
                         </Transition>
                     </Popover>
-                    
+
                     <a
                         href="/#reviews"
                         className="text-sm font-semibold leading-6 text-white hover:text-[#bf9b30]"
@@ -173,7 +173,7 @@ export default function Example() {
                         Reviews
                     </a>
                 </Popover.Group>
-                
+
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                     <a
                         href="/contact"
@@ -202,7 +202,7 @@ export default function Example() {
                         </a>
                         <button
                             type="button"
-                            className="-m-2.5 rounded-md p-2.5 text-white"                           
+                            className="-m-2.5 rounded-md p-2.5 text-white"
                             onClick={() => setMobileMenuOpen(false)}
                         >
                             <span className="sr-only">Close menu</span>
@@ -234,9 +234,7 @@ export default function Example() {
                                                 />
                                             </Disclosure.Button>
                                             <Disclosure.Panel className="mt-2 space-y-2">
-                                                {[
-                                                    ...products,
-                                                ].map((item) => (
+                                                {[...products].map((item) => (
                                                     <Disclosure.Button
                                                         key={item.name}
                                                         as="a"
@@ -250,7 +248,7 @@ export default function Example() {
                                         </>
                                     )}
                                 </Disclosure>
-                                
+
                                 <Disclosure as="div" className="-mx-3">
                                     {({ open }) => (
                                         <>
@@ -267,9 +265,7 @@ export default function Example() {
                                                 />
                                             </Disclosure.Button>
                                             <Disclosure.Panel className="mt-2 space-y-2">
-                                                {[
-                                                    ...dgca,
-                                                ].map((item) => (
+                                                {[...dgca].map((item) => (
                                                     <Disclosure.Button
                                                         key={item.name}
                                                         as="a"
@@ -310,7 +306,7 @@ export default function Example() {
                         </div>
                     </div>
                 </Dialog.Panel>
-                </Dialog>
+            </Dialog>
         </header>
     );
 }

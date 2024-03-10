@@ -27,16 +27,16 @@ export default function HomeAbout() {
                     </div>
 
                     <h1 className="mt-10 text-4xl font-bold tracking-tight text-white sm:text-6xl">
-                        Welcome to Aerodemy Aviation
+                        Welcome to Aerodemy Aviation!
                     </h1>
                     <p className="mt-6 text-lg leading-8 text-gray-300">
                         Your dedicated online platform crafted for aspiring
                         aviators. Here, we immerse you in the world of aviation,
                         offering a range of services from online consultations
                         and aviation materials to personalized 1-on-1 classes
-                        tailored for Cadet Pilot programs of Indian airlines and
-                        DGCA subject classes with personal mentoring – all at
-                        affordable prices.
+                        tailored for Cadet Pilot Programs of Indian Airlines and
+                        DGCA Ground Classes with personal mentoring – all at
+                        affordable prices!
                     </p>
                     {/*<div className="mt-10 flex items-center gap-x-6">
                         <a

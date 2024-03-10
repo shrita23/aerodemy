@@ -1,7 +1,7 @@
 const posts = [
     {
         id: 1,
-        title: "ICPP",
+        title: "Indigo Cadet Pilot Program",
         href: "/icpp",
         description: "Course Description",
         imageUrl:
@@ -10,7 +10,7 @@ const posts = [
 
     {
         id: 2,
-        title: "AICPP",
+        title: "Air India Cadet Pilot Program",
         href: "/aicpp",
         description: "Course Description",
         imageUrl:
@@ -29,7 +29,7 @@ const posts = [
     {
         id: 4,
         title: "DGCA Subjects",
-        href: "/dgca",
+        href: "/subjects",
         description: "Course Description",
         imageUrl:
             "https://unsplash.com/photos/UOJ6vz2khrY/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cGlsb3RzfGVufDB8fHx8MTcwOTg3OTY1MXww&force=true&w=640",
@@ -42,7 +42,7 @@ export default function Courses() {
         <div className="relative isolate py-24 sm:py-32" id="courses">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl text-center">
-                    <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-[#bf9b30]">
+                    <h2 className="text-3xl font-bold tracking-tight sm:text-5xl text-[#bf9b30] underline decoration-[#bf9b30]">
                         Courses
                     </h2>
                 </div>

@@ -1,12 +1,12 @@
 const navigation = {
     services: [
-        { name: "AICPP", href: "#" },
-        { name: "ICPP", href: "#" },
-        { name: "Flash Course", href: "#" },
-        { name: "DGCA Ground Classes", href: "#" },
+        { name: "AICPP", href: "/aicpp" },
+        { name: "ICPP", href: "/icpp" },
+        { name: "Flash Course", href: "/flash" },
+        { name: "DGCA Ground Classes", href: "/subjects" },
     ],
     socials: [
-        { name: "Email", href: "#" },
+        { name: "Email", href: "mailto:aviationaerodemy@gmail.com" },
         { name: "Instagram", href: "#" },
         { name: "Telegram", href: "#" },
         { name: "Whatsapp", href: "#" },
@@ -26,7 +26,7 @@ export default function Footer() {
             <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
                 <div className="xl:grid xl:grid-cols-3 xl:gap-8 justify-center">
                     <img
-                        className="h-40 mx-auto"
+                        className="h-46 mx-auto"
                         src="/biglogo.png"
                         alt="Company name"
                     />

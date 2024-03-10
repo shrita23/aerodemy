@@ -16,7 +16,7 @@ export default function GetInTouch() {
                         </div>
                         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
                             <Link
-                                href="#"
+                                href="mailto:aviationaerodemy@gmail.com"
                                 className="rounded-2xl bg-black/25 p-10"
                             >
                                 <h3 className="text-base font-semibold leading-7 text-[#bf9b30]">
@@ -26,23 +26,20 @@ export default function GetInTouch() {
                                     <div>
                                         <dt className="sr-only">Email</dt>
                                         <dd>
-                                            <a
-                                                className="font-semibold text-indigo-600"
-                                                href="mailto:collaborate@example.com"
-                                            >
-                                                collaborate@example.com
-                                            </a>
+                                            <span className="font-semibold text-white">
+                                                aviationaerodemy@gmail.com
+                                            </span>
                                         </dd>
                                     </div>
                                     <div className="mt-1">
-                                        <dt className="sr-only">Instagram</dt>
-                                        <dd>+1 (555) 905-2345</dd>
+                                        <dt className="sr-only">Email</dt>
+                                        {/*<dd>+1 (555) 905-3456</dd>*/}
                                     </div>
                                 </dl>
                             </Link>
 
                             <Link
-                                href="#"
+                                href="https://chat.whatsapp.com/D4SCa57L36y1wEiQEwOzwm"
                                 className="rounded-2xl bg-black/25 p-10"
                             >
                                 <h3 className="text-base font-semibold leading-7 text-[#bf9b30]">
@@ -50,19 +47,16 @@ export default function GetInTouch() {
                                 </h3>
                                 <dl className="mt-3 space-y-1 text-sm leading-6 text-white">
                                     <div>
-                                        <dt className="sr-only">Email</dt>
+                                        <dt className="sr-only">Number</dt>
                                         <dd>
-                                            <a
-                                                className="font-semibold text-indigo-600"
-                                                href="mailto:press@example.com"
-                                            >
-                                                press@example.com
-                                            </a>
+                                            <span className="font-semibold text-white">
+                                                Aerodemy Aviation 🛩
+                                            </span>
                                         </dd>
                                     </div>
                                     <div className="mt-1">
-                                        <dt className="sr-only">Telegram</dt>
-                                        <dd>+1 (555) 905-3456</dd>
+                                        <dt className="sr-only">Number</dt>
+                                        {/*<dd>+1 (555) 905-3456</dd>*/}
                                     </div>
                                 </dl>
                             </Link>
@@ -72,25 +66,20 @@ export default function GetInTouch() {
                                 className="rounded-2xl bg-black/25 p-10"
                             >
                                 <h3 className="text-base font-semibold leading-7 text-[#bf9b30]">
-                                    Join our team
+                                    Instagram
                                 </h3>
                                 <dl className="mt-3 space-y-1 text-sm leading-6 text-white">
                                     <div>
-                                        <dt className="sr-only">Email</dt>
+                                        <dt className="sr-only">Link</dt>
                                         <dd>
-                                            <a
-                                                className="font-semibold text-indigo-600"
-                                                href="mailto:careers@example.com"
-                                            >
+                                            <span className="font-semibold text-indigo-600">
                                                 careers@example.com
-                                            </a>
+                                            </span>
                                         </dd>
                                     </div>
                                     <div className="mt-1">
-                                        <dt className="sr-only">
-                                            Phone number
-                                        </dt>
-                                        <dd>+1 (555) 905-4567</dd>
+                                        <dt className="sr-only">Link</dt>
+                                        {/*<dd>+1 (555) 905-3456</dd>*/}
                                     </div>
                                 </dl>
                             </Link>
@@ -100,25 +89,22 @@ export default function GetInTouch() {
                                 className="rounded-2xl bg-black/25 p-10"
                             >
                                 <h3 className="text-base font-semibold leading-7 text-[#bf9b30]">
-                                    Say hello
+                                    Telegram
                                 </h3>
                                 <dl className="mt-3 space-y-1 text-sm leading-6 text-white">
                                     <div>
                                         <dt className="sr-only">Email</dt>
                                         <dd>
-                                            <a
-                                                className="font-semibold text-indigo-600"
-                                                href="mailto:hello@example.com"
-                                            >
+                                            <span className="font-semibold text-indigo-600">
                                                 hello@example.com
-                                            </a>
+                                            </span>
                                         </dd>
                                     </div>
                                     <div className="mt-1">
                                         <dt className="sr-only">
                                             Phone number
                                         </dt>
-                                        <dd>+1 (555) 905-5678</dd>
+                                        {/*<dd>+1 (555) 905-3456</dd>*/}
                                     </div>
                                 </dl>
                             </Link>
