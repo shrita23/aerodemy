@@ -25,13 +25,15 @@ export default function Footer() {
                 Footer
             </h2>
             <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
-                <div className="xl:grid xl:grid-cols-3 xl:gap-8 justify-center">
-                    <img
-                        className="h-46 mx-auto"
-                        src="/biglogo.png"
-                        alt="Company name"
-                    />
-                    <div className="mt-16  gap-8 xl:col-span-2 xl:mt-0">
+                <div className="flex items-center gap-10 flex-col md:flex-row lg:gap-20">
+                    <div className="lg:mr-auto">
+                        <img
+                            className="h-46 mx-auto "
+                            src="/biglogo.png"
+                            alt="Company name"
+                        />
+                    </div>
+                    <div className="flex-1">
                         <div className="flex justify-center flex-col md:flex-row items-center md:items-start md:gap-8">
                             <div className="flex-1 text-center md:text-left">
                                 <h3 className="text-sm font-semibold leading-6 text-[#bf9b30]">

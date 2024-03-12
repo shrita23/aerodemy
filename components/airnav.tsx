@@ -26,10 +26,8 @@ export default function AICPP() {
                 <div className="px-6 pt-14 lg:px-8">
                     <div className="mx-auto max-w-2xl pt-24 text-center sm:pt-40">
                         <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-                            Air
-                            <span className="text-[#bf9b30]">
-                                Navigation
-                            </span>{" "}
+                            Air{" "}
+                            <span className="text-[#bf9b30]">Navigation</span>{" "}
                         </h2>
                         <p className="mt-6 text-lg leading-8 text-gray-300">
                             To prepare for the DGCA (Directorate General of
@@ -111,22 +109,20 @@ export default function AICPP() {
                                 calculations.
                             </p>
                         </div>
-                        <div className="flex justify-center">
-                            <div className="mt-10 flex items-center gap-x-6">
+                        <div className="flex justify-center mt-10 gap-10 flex-col lg:mt-20 lg:flex-row ">
+                            <div className="flex items-center gap-x-6">
                                 <a
                                     href="/contact"
-                                    className="rounded-md bg-gradient-to-tr text-xl from-[#bf9b30] to-[#ffdc73] px-14 py-6 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
-                                    style={{ margin: "100px" }}
+                                    className="flex-1 rounded-md bg-gradient-to-tr text-xl from-[#bf9b30] to-[#ffdc73] px-10 py-6 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                                 >
                                     Buy Flash Course at <br />
                                     <span className="text-white">Rs.XYZ</span>
                                 </a>
                             </div>
-                            <div className="mt-10 flex items-center gap-x-6">
+                            <div className="flex items-center gap-x-6">
                                 <a
                                     href="/contact"
-                                    className="rounded-md bg-gradient-to-tr text-xl from-[#bf9b30] to-[#ffdc73] px-10 py-6 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
-                                    style={{ margin: "100px" }}
+                                    className="flex-1 rounded-md bg-gradient-to-tr text-xl from-[#bf9b30] to-[#ffdc73] px-10 py-6 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                                 >
                                     Buy DGCA Ground Classes at <br />
                                     <span className="text-white">Rs.XYZ</span>

@@ -10,9 +10,6 @@ import {
 } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import Testimonial from "./testimonial";
-import Testimonial1 from "./testimonial1";
-import Testimonial2 from "./testimonial2";
-import Testimonial3 from "./testimonial3";
 export default function MyApp() {
     return (
         <div className="relative" id="reviews">
@@ -37,7 +34,7 @@ export default function MyApp() {
                     naturalSlideWidth={100}
                     naturalSlideHeight={400}
                     isIntrinsicHeight={true}
-                    totalSlides={2}
+                    totalSlides={4}
                 >
                     <h1 className="text-5xl font-bold xl:block leading-tight text-white text-center underline decoration-[#bf9b30]">
                         Student <span className="text-[#bf9b30]">Insights</span>
@@ -45,16 +42,36 @@ export default function MyApp() {
 
                     <Slider>
                         <Slide index={0} tabIndex={0}>
-                            <Testimonial />
+                            <Testimonial
+                                name="Test"
+                                position="Test"
+                                testimonial="test"
+                                image="/roshanraj.jpg"
+                            />
                         </Slide>
                         <Slide index={1}>
-                            <Testimonial1 />
+                            <Testimonial
+                                name="Test 2"
+                                position="Test"
+                                testimonial="test"
+                                image="/roshanraj.jpg"
+                            />
                         </Slide>
                         <Slide index={2}>
-                            <Testimonial2 />
+                            <Testimonial
+                                name="Test 3"
+                                position="Test"
+                                testimonial="test"
+                                image="/roshanraj.jpg"
+                            />
                         </Slide>
                         <Slide index={3}>
-                            <Testimonial3 />
+                            <Testimonial
+                                name="Test 4"
+                                position="Test"
+                                testimonial="test"
+                                image="/roshanraj.jpg"
+                            />
                         </Slide>
                     </Slider>
                     <div className="flex items-center justify-center invert">
