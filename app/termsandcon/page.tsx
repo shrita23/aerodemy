@@ -1,15 +1,15 @@
-import TechGen from "@/components/techgen";
+import TnC from "@/components/termsandcon";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Techincal General",
+    title: "Terms and Conditons",
     description: "Description here",
 };
 
-export default function TechGenPage() {
+export default function Disc() {
     return (
         <>
-            <TechGen />
+            <TnC />
         </>
     );
 }

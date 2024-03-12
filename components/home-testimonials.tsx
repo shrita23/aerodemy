@@ -10,7 +10,9 @@ import {
 } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import Testimonial from "./testimonial";
-/* Install pure-react-carousel using -> npm i pure-react-carousel */
+import Testimonial1 from "./testimonial1";
+import Testimonial2 from "./testimonial2";
+import Testimonial3 from "./testimonial3";
 export default function MyApp() {
     return (
         <div className="relative" id="reviews">
@@ -46,7 +48,13 @@ export default function MyApp() {
                             <Testimonial />
                         </Slide>
                         <Slide index={1}>
-                            <Testimonial />
+                            <Testimonial1 />
+                        </Slide>
+                        <Slide index={2}>
+                            <Testimonial2 />
+                        </Slide>
+                        <Slide index={3}>
+                            <Testimonial3 />
                         </Slide>
                     </Slider>
                     <div className="flex items-center justify-center invert">

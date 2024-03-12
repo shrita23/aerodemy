@@ -7,11 +7,17 @@ export default function GetInTouch() {
                 <div className="mx-auto max-w-2xl space-y-16 divide-y divide-gray-100 lg:mx-0 lg:max-w-none">
                     <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
                         <div>
-                            <h2 className="text-3xl font-bold tracking-tight text-[#bf9b30]">
+                            <h2 className="text-3xl font-bold tracking-tight text-[#bf9b30] underline">
                                 Get in touch
                             </h2>
                             <p className="mt-4 leading-7 text-white">
-                                With our team
+                                Piqued your interest while navigating our
+                                website? We invite you to take the next
+                                exhilarating step. Feel the freedom to get in
+                                touch and let the enchanting adventure of
+                                aviation unfold with Aerodemy aviation – where
+                                your journey begins in style. Buckle up,
+                                future aviators!!
                             </p>
                         </div>
                         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
@@ -62,7 +68,7 @@ export default function GetInTouch() {
                             </Link>
 
                             <Link
-                                href="#"
+                                href="https://www.instagram.com/aerodemyaviation?igsh=eDVmYXI4ZWJ6OGw4"
                                 className="rounded-2xl bg-black/25 p-10"
                             >
                                 <h3 className="text-base font-semibold leading-7 text-[#bf9b30]">
@@ -72,8 +78,8 @@ export default function GetInTouch() {
                                     <div>
                                         <dt className="sr-only">Link</dt>
                                         <dd>
-                                            <span className="font-semibold text-indigo-600">
-                                                careers@example.com
+                                            <span className="font-semibold text-white">
+                                                @aerodemyaviation
                                             </span>
                                         </dd>
                                     </div>
@@ -85,7 +91,7 @@ export default function GetInTouch() {
                             </Link>
 
                             <Link
-                                href="#"
+                                href="https://t.me/aerodemyaviation"
                                 className="rounded-2xl bg-black/25 p-10"
                             >
                                 <h3 className="text-base font-semibold leading-7 text-[#bf9b30]">
@@ -95,8 +101,8 @@ export default function GetInTouch() {
                                     <div>
                                         <dt className="sr-only">Email</dt>
                                         <dd>
-                                            <span className="font-semibold text-indigo-600">
-                                                hello@example.com
+                                            <span className="font-semibold text-white">
+                                                https://t.me/aerodemyaviation
                                             </span>
                                         </dd>
                                     </div>

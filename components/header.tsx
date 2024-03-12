@@ -12,12 +12,12 @@ import Link from "next/link";
 
 const products = [
     {
-        name: "ICPP",
+        name: "Indigo Cadet Pilot Program",
 
         href: "/icpp",
     },
     {
-        name: "AICPP",
+        name: "Air India Cadet Pilot Program",
 
         href: "/aicpp",
     },
@@ -192,7 +192,7 @@ export default function Example() {
                 <div className="fixed inset-0 z-10" />
                 <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-black/90 backdrop-blur-md px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
-                        <a href="#" className="-m-1.5 p-1.5">
+                        <a href="/" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
                             <img
                                 className="h-8 w-auto"
@@ -298,7 +298,7 @@ export default function Example() {
                             <div className="py-6">
                                 <a
                                     href="/contact"
-                                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white bg-[#bf9b30] hover:bg-black/25"
+                                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white bg-[#bf9b30] hover:bg-[#bf9b30]/25"
                                 >
                                     Contact Us
                                 </a>

@@ -1,15 +1,15 @@
-import TechGen from "@/components/techgen";
+import PrivPoli from "@/components/privpol";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Techincal General",
+    title: "Privacy Policy",
     description: "Description here",
 };
 
-export default function TechGenPage() {
+export default function PrivPol() {
     return (
         <>
-            <TechGen />
+            <PrivPoli />
         </>
     );
 }

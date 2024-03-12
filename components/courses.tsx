@@ -3,36 +3,36 @@ const posts = [
         id: 1,
         title: "Indigo Cadet Pilot Program",
         href: "/icpp",
-        description: "Course Description",
-        imageUrl:
-            "https://unsplash.com/photos/UOJ6vz2khrY/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cGlsb3RzfGVufDB8fHx8MTcwOTg3OTY1MXww&force=true&w=640",
+        description:
+            "Elevate your aviation aspirations with Aerodemy's ICPP COURSE! Experience tailored 1v1 classes, a strategic approach, continuous 24/7 mentorship, comprehensive materials, budget-friendly packages, and flexible scheduling. Let dedicated instructors steer your path to a flourishing aviation career!",
+        imageUrl: "/indigo.png",
     },
 
     {
         id: 2,
         title: "Air India Cadet Pilot Program",
         href: "/aicpp",
-        description: "Course Description",
-        imageUrl:
-            "https://unsplash.com/photos/UOJ6vz2khrY/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cGlsb3RzfGVufDB8fHx8MTcwOTg3OTY1MXww&force=true&w=640",
+        description:
+            "Join Aerodemy's AICPP for a top-tier aviation experience. Benefit from personalized 1v1 classes, 24/7 mentorship, and flexible scheduling – all in a budget-friendly package. Enroll now to launch your dream of becoming a Cadet Pilot for Air India. Elevate your aviation journey with us!",
+        imageUrl: "/airindia.png",
     },
 
     {
         id: 3,
         title: "Flash Course",
         href: "/flash",
-        description: "Course Description",
-        imageUrl:
-            "https://unsplash.com/photos/UOJ6vz2khrY/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cGlsb3RzfGVufDB8fHx8MTcwOTg3OTY1MXww&force=true&w=640",
+        description:
+            "Fast-track your DGCA exam success with Aerodemy's Intensive Ground Subject Flash Course. Tailored for time efficiency, enjoy premium education, personalized mentoring, and exclusive notes. Elevate your aviation journey confidently with Aerodemy's expert guidance. Buckle up for excellence!",
+        imageUrl: "/flash.jpg",
     },
 
     {
         id: 4,
-        title: "DGCA Subjects",
+        title: "DGCA Ground Classes",
         href: "/subjects",
-        description: "Course Description",
-        imageUrl:
-            "https://unsplash.com/photos/UOJ6vz2khrY/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cGlsb3RzfGVufDB8fHx8MTcwOTg3OTY1MXww&force=true&w=640",
+        description:
+            "The Directorate General of Civil Aviation (DGCA) oversees civil aviation in India. The various DGCA Subjects are Aviation Meteorology, Air Regulations, Air Navigation and Technical General. Pilots need to have a thorough understanding of these subjects in order to obtain a Commercial Pilot License (CPL)!",
+        imageUrl: "/dgca1.jpg",
     },
     // More posts...
 ];

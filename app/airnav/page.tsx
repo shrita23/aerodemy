@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     description: "Description here",
 };
 
-export default function AICPPPage() {
+export default function AirNavPage() {
     return (
         <>
             <AirNav />

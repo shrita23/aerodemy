@@ -10,12 +10,6 @@ import {
     UserGroupIcon,
 } from "@heroicons/react/20/solid";
 
-const navigation = [
-    { name: "Product", href: "#" },
-    { name: "Features", href: "#" },
-    { name: "Marketplace", href: "#" },
-    { name: "Company", href: "#" },
-];
 const stats = [
     { label: "Business was founded", value: "2012" },
     { label: "People on the team", value: "120+" },

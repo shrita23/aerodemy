@@ -9,7 +9,7 @@ const posts = [
 
     {
         id: 2,
-        title: "Avation Meteorology",
+        title: "Aviation Meteorology",
         href: "/avmet",
         description: "Course Description",
         imageUrl: "/airmet.jpg",
@@ -20,7 +20,8 @@ const posts = [
         title: "Air Regulations",
         href: "/airreg",
         description: "Course Description",
-        imageUrl: "/airreg.jpeg",
+        imageUrl:
+            "https://unsplash.com/photos/UOJ6vz2khrY/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cGlsb3RzfGVufDB8fHx8MTcwOTg3OTY1MXww&force=true&w=640",
     },
 
     {
@@ -39,9 +40,26 @@ export default function Flash() {
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl text-center">
                     <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-[#bf9b30] underline">
-                        Flash
+                        Flash Course
                     </h2>
-                    <p className="mt-10">Description</p>
+                    <p className="mt-10">
+                        Welcome to Aerodemy Aviation's Intensive Ground Subject
+                        Flash Course— a specialized program crafted for
+                        ambitious aviators eager to swiftly master their DGCA
+                        exams. Tailored for those with time constraints, our
+                        flash courses offer premium education and comprehensive
+                        materials, ensuring effective preparation even in tight
+                        schedules. Emphasizing quality, candidates benefit from
+                        personalized online mentoring and exclusive handwritten
+                        notes provided to them by their mentors, tailored to
+                        their specific subjects. Beyond exam preparation, this
+                        course serves as a thorough revision for those already
+                        acquainted with the material. Elevate your aviation
+                        journey with Aerodemy Aviation's professional guidance,
+                        arming you with the knowledge and confidence essential
+                        for DGCA ground subject excellence. Buckle up,
+                        future aviators!
+                    </p>
                 </div>
                 <div className="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
                     {posts.map((post) => (

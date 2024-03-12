@@ -12,8 +12,9 @@ const navigation = {
         { name: "Whatsapp", href: "#" },
     ],
     legal: [
-        { name: "Privacy Policy", href: "#" },
-        { name: "Terms Of Service", href: "#" },
+        { name: "Privacy Policy", href: "/privpol" },
+        { name: "Terms and conditions", href: "/termsandcon" },
+        { name: "Disclaimer", href: "/disc" },
     ],
 };
 

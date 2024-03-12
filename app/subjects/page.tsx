@@ -27,7 +27,8 @@ const posts = [
         title: "Air Regulations",
         href: "/airreg",
         description: "Course Description",
-        imageUrl: "/airreg.jpeg",
+        imageUrl:
+            "https://unsplash.com/photos/UOJ6vz2khrY/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cGlsb3RzfGVufDB8fHx8MTcwOTg3OTY1MXww&force=true&w=640",
     },
 
     {
@@ -46,9 +47,16 @@ export default function Subjects() {
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl text-center">
                     <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-[#bf9b30] underline">
-                        Subjects
+                        DGCA Ground Classes
                     </h2>
-                    <p className="mt-10">Description</p>
+                    <p className="mt-10">
+                        The Directorate General of Civil Aviation (DGCA)
+                        oversees civil aviation in India. The various DGCA
+                        Subjects are Aviation Meteorology, Air Regulations, Air
+                        Navigation and Technical General. Pilots need to have a
+                        thorough understanding of these subjects in order to
+                        obtain a Commercial Pilot License (CPL).
+                    </p>
                 </div>
                 <div className="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
                     {posts.map((post) => (
