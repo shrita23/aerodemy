@@ -214,14 +214,14 @@ export default function Example() {
                             <div className="space-y-2 py-6">
                                 <a
                                     href="/"
-                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-[#bf9b30]/25"
+                                    className="-mx-3 block rounded-lg px-3 py-1 text-base font-semibold leading-7 text-white hover:bg-[#bf9b30]/25"
                                 >
                                     Home
                                 </a>
                                 <Disclosure as="div" className="-mx-3">
                                     {({ open }) => (
                                         <>
-                                            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white hover:bg-[#bf9b30]/25">
+                                            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-1 pl-3 pr-3.5 text-base font-semibold leading-7 text-white hover:bg-[#bf9b30]/25">
                                                 CPP Classes
                                                 <ChevronDownIcon
                                                     className={classNames(
@@ -233,7 +233,7 @@ export default function Example() {
                                                     aria-hidden="true"
                                                 />
                                             </Disclosure.Button>
-                                            <Disclosure.Panel className="mt-2 space-y-2">
+                                            <Disclosure.Panel className="mt-2 space-y-1">
                                                 {[...products].map((item) => (
                                                     <Disclosure.Button
                                                         key={item.name}
