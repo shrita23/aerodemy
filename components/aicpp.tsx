@@ -85,11 +85,11 @@ export default function AICPP() {
                         </h2>
                         <p className="mt-6 text-lg leading-8 text-gray-300">
                             Embark on a meticulously designed journey into the
-                            aviation realm with Aerodemy Aviation's AICPP
+                            aviation realm with Aerodemy Aviation&apos;s AICPP
                             preparatory course. Our comprehensive course steers
-                            aspiring aviators through four vital phases. Let's
-                            delve into the four essential phases of Air India
-                            Cadet Pilot Program.
+                            aspiring aviators through four vital phases.
+                            Let&apos;s delve into the four essential phases of
+                            Air India Cadet Pilot Program.
                         </p>
                     </div>
                 </div>
@@ -124,7 +124,7 @@ export default function AICPP() {
                                     Mathematics and English Tests:{" "}
                                 </span>
                                 <br />
-                                - Evaluate candidates' proficiency in
+                                - Evaluate candidates&apos; proficiency in
                                 fundamental mathematical and English skills.
                                 <br />
                                 <span className="text-white bold">
@@ -175,7 +175,7 @@ export default function AICPP() {
                                     4. Personal Interview (PI):
                                 </span>
                                 <br /> - Personality Assessment: Delving into
-                                the candidate's character, values, and
+                                the candidate&apos;s character, values, and
                                 interpersonal skills.
                                 <br /> - Current Affairs and General Knowledge:
                                 Assessing awareness of current events and
@@ -185,7 +185,7 @@ export default function AICPP() {
                                 demeanor.
                                 <br /> - Company-Specific Knowledge: Ensuring
                                 that the candidate is familiar with the
-                                company's dynamics and current affairs.
+                                company&apos;s dynamics and current affairs.
                                 <br /> - Technical knowledge: Assessing your
                                 basic aerodynamics and aviation knowlegde
                             </p>

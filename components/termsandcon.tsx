@@ -47,40 +47,40 @@ export default function TnC() {
                             commercial purpose, or for any public display
                             (commercial or non-commercial); 3. attempt to
                             decompile or reverse engineer any software contained
-                            on the Academy’s web site; 4. remove any copyright
-                            or other proprietary notations from the materials;
-                            or 5. transfer the materials to another person or
-                            'mirror' the materials on any other server. 2. This
-                            license shall automatically terminate if you violate
-                            any of these restrictions and may be terminated by
-                            Company at any time. Upon terminating your viewing
-                            of these materials or upon the termination of this
-                            license, you must destroy any downloaded materials
-                            in your possession whether in electronic or printed
-                            format. 3. Disclaimer The materials on the Academy’s
-                            website are provided 'as is'. The Academy makes no
-                            warranties, expressed or implied, and hereby
-                            disclaims and negates all other warranties,
-                            including without limitation, implied warranties or
-                            conditions of merchantability, fitness for a
-                            particular purpose, or non-infringement of
-                            intellectual property or other violation of rights.
-                            Further, the Academy does not warrant or make any
-                            representations concerning the accuracy, likely
-                            results, or reliability of the use of the materials
-                            on its website or otherwise relating to such
-                            materials or on any sites linked to this site. 4.
-                            Limitations In no event shall the Academy be liable
-                            for any damages (including, without limitation,
-                            damages for loss of data or profit, or due to
-                            business interruption) arising out of the use or
-                            inability to use the materials on the Academy’s
-                            website, even if the Academy or an authorized of the
-                            Academy has been notified orally or in writing of
-                            the possibility of such damage. Because some
-                            jurisdictions do not allow limitations on implied
-                            warranties, or limitations of liability for
-                            consequential or incidental damages, these
+                            on the Academy&apos;s web site; 4. remove any
+                            copyright or other proprietary notations from the
+                            materials; or 5. transfer the materials to another
+                            person or &apos;mirror&apos; the materials on any
+                            other server. 2. This license shall automatically
+                            terminate if you violate any of these restrictions
+                            and may be terminated by Company at any time. Upon
+                            terminating your viewing of these materials or upon
+                            the termination of this license, you must destroy
+                            any downloaded materials in your possession whether
+                            in electronic or printed format. 3. Disclaimer The
+                            materials on the Academy’s website are provided
+                            &apos;as is&apos;. The Academy makes no warranties,
+                            expressed or implied, and hereby disclaims and
+                            negates all other warranties, including without
+                            limitation, implied warranties or conditions of
+                            merchantability, fitness for a particular purpose,
+                            or non-infringement of intellectual property or
+                            other violation of rights. Further, the Academy does
+                            not warrant or make any representations concerning
+                            the accuracy, likely results, or reliability of the
+                            use of the materials on its website or otherwise
+                            relating to such materials or on any sites linked to
+                            this site. 4. Limitations In no event shall the
+                            Academy be liable for any damages (including,
+                            without limitation, damages for loss of data or
+                            profit, or due to business interruption) arising out
+                            of the use or inability to use the materials on the
+                            Academy’s website, even if the Academy or an
+                            authorized of the Academy has been notified orally
+                            or in writing of the possibility of such damage.
+                            Because some jurisdictions do not allow limitations
+                            on implied warranties, or limitations of liability
+                            for consequential or incidental damages, these
                             limitations may not apply to you. 5. Revisions and
                             Errata The materials appearing on the Academy’s
                             website may include technical, typographical, or
@@ -95,15 +95,16 @@ export default function TnC() {
                             responsible for the contents of any such linked
                             site. The inclusion of any link does not imply
                             endorsement by the Academy of the site. Use of any
-                            such linked website is at the user's own risk. 7.
-                            Site Terms of Use Modifications The Academy may
+                            such linked website is at the user&apos;s own risk.
+                            7. Site Terms of Use Modifications The Academy may
                             revise these Terms of Use for its website at any
                             time without notice. By using this website, you are
                             agreeing to be bound by the then current version of
                             these Terms of Use. 8. Governing Law Any claim
-                            relating to the Academy’s website shall be governed
-                            by the laws of the Academy Owner’s home jurisdiction
-                            without regard to its conflict of law provisions.
+                            relating to the Academy&apos;s website shall be
+                            governed by the laws of the Academy Owner&apos;s
+                            home jurisdiction without regard to its conflict
+                            of law provisions.
                         </p>
                     </div>
                 </div>

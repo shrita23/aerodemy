@@ -90,8 +90,9 @@ export default function ICPP() {
                             them with the knowledge, skills and confidence
                             required to successfully navigate the challenging
                             selection process and emerge as an accomplished
-                            Cadet Pilot with IndiGo. Let's delve into the three
-                            essential phases of Indigo Cadet Pilot Program.
+                            Cadet Pilot with IndiGo. Let&apos;s delve into the
+                            three essential phases of Indigo Cadet Pilot
+                            Program.
                         </p>
                     </div>
                 </div>
@@ -149,7 +150,7 @@ export default function ICPP() {
                                     3. Personal Interview (PI):
                                 </span>
                                 <br /> - Personality Assessment: Delving into
-                                the candidate's character, values, and
+                                the candidate&apos;s character, values, and
                                 interpersonal skills.
                                 <br /> - Current Affairs and General Knowledge:
                                 Assessing awareness of current events and
@@ -159,7 +160,7 @@ export default function ICPP() {
                                 demeanor.
                                 <br /> - Company-Specific Knowledge: Ensuring
                                 that the candidate is familiar with the
-                                company's dynamics and current affairs.
+                                company&apos;s dynamics and current affairs.
                                 <br /> - Technical knowledge: Assessing your
                                 basic aerodynamics and aviation knowledge.
                             </p>

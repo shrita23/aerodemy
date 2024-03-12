@@ -60,8 +60,8 @@ export default function TnC() {
                             court orders To protect the rights or property of
                             Aerodemy Aviation or its users In the event of a
                             merger, acquisition, or sale of all or a portion of
-                            Aerodemy Aviation's assets Data Security: We take
-                            reasonable steps to safeguard your personal
+                            Aerodemy Aviation&apos;s assets Data Security: We
+                            take reasonable steps to safeguard your personal
                             information against unauthorized access, use, and
                             disclosure. However, no data transmission over the
                             internet is 100% secure, and we cannot guarantee the

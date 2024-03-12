@@ -43,8 +43,8 @@ export default function Flash() {
                         Flash Course
                     </h2>
                     <p className="mt-10">
-                        Welcome to Aerodemy Aviation's Intensive Ground Subject
-                        Flash Course— a specialized program crafted for
+                        Welcome to Aerodemy Aviation&apos;s Intensive Ground
+                        Subject Flash Course— a specialized program crafted for
                         ambitious aviators eager to swiftly master their DGCA
                         exams. Tailored for those with time constraints, our
                         flash courses offer premium education and comprehensive
@@ -55,9 +55,9 @@ export default function Flash() {
                         their specific subjects. Beyond exam preparation, this
                         course serves as a thorough revision for those already
                         acquainted with the material. Elevate your aviation
-                        journey with Aerodemy Aviation's professional guidance,
-                        arming you with the knowledge and confidence essential
-                        for DGCA ground subject excellence. Buckle up,
+                        journey with Aerodemy Aviation&apos;s professional
+                        guidance, arming you with the knowledge and confidence
+                        essential for DGCA ground subject excellence. Buckle up,
                         future aviators!
                     </p>
                 </div>
