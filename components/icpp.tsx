@@ -74,7 +74,6 @@ export default function ICPP() {
                         }}
                     />
                 </div>
-
                 {/* Header section */}
                 <div className="px-6 pt-14 lg:px-8">
                     <div className="mx-auto max-w-2xl pt-24 text-center sm:pt-40">
@@ -96,7 +95,6 @@ export default function ICPP() {
                         </p>
                     </div>
                 </div>
-
                 {/* Content section */}
                 <div className="mx-auto mt-20 max-w-7xl px-6 lg:px-8">
                     <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
@@ -285,7 +283,17 @@ export default function ICPP() {
                         </dl>
                     </div>
                 </div>
-
+                <br /> <br /> <br />
+                <div className="mx-auto flex justify-center">
+                    {" "}
+                    {/* Updated this line */}
+                    <a
+                        href="/contact"
+                        className="rounded-md bg-gradient-to-tr from-[#bf9b30] to-[#ffdc73] px-3.5 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    >
+                        Buy Now !
+                    </a>
+                </div>
                 {/* Values section */}
                 <div className="mx-auto mt-32 mb-32 max-w-7xl px-6 sm:mt-40 sm:mb-40 lg:px-8 ">
                     <div className="mx-auto max-w-2xl lg:mx-0">
