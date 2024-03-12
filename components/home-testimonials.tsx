@@ -43,7 +43,7 @@ export default function MyApp() {
                     <Slider>
                         <Slide index={0} tabIndex={0}>
                             <Testimonial
-                                testimonial="The classes provided a focused, professional and structured approach to learning that helped me understand the subject. The course content was well-organized and they offered valuable resources and materials to practice. The instructor, Mr. Tushar was knowledgeable and engaging, making complex concepts easy to grasp.Throughout the course, I was provided personalized attention and support from the instructor, who was readily available to answer questions, be it day or night. 
+                                testimonial="The classes provided a focused, professional and structured approach to learning that helped me understand the subject. The course content was well-organized and they offered valuable resources and materials to practice. The instructor was knowledgeable and engaging, making complex concepts easy to grasp.Throughout the course, I was provided personalized attention and support from the instructor, who was readily available to answer questions, be it day or night. 
                                 By the end of the course, I felt more confident in my abilities and had acquired the skills to glide through the exam. Highly recommended for anyone looking to deepen their understanding of aviation  in a supportive and enriching environment."
                                 image="/roshanraj.jpg"
                                 name="Roshan Raj"

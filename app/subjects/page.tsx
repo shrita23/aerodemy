@@ -10,7 +10,7 @@ const posts = [
         id: 1,
         title: "Air Navigation",
         href: "/airnav",
-        description: "Course Description",
+        description: "",
         imageUrl: "/airnav.jpg",
     },
 
@@ -18,7 +18,7 @@ const posts = [
         id: 2,
         title: "Avation Meteorology",
         href: "/avmet",
-        description: "Course Description",
+        description: "",
         imageUrl: "/airmet.jpg",
     },
 
@@ -26,7 +26,7 @@ const posts = [
         id: 3,
         title: "Air Regulations",
         href: "/airreg",
-        description: "Course Description",
+        description: "",
         imageUrl:
             "https://unsplash.com/photos/UOJ6vz2khrY/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cGlsb3RzfGVufDB8fHx8MTcwOTg3OTY1MXww&force=true&w=640",
     },
@@ -35,7 +35,7 @@ const posts = [
         id: 4,
         title: "Technical General",
         href: "/techgen",
-        description: "Course Description",
+        description: "",
         imageUrl: "/techgen.jpg",
     },
     // More posts...

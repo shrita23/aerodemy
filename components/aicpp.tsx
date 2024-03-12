@@ -11,10 +11,10 @@ import {
 } from "@heroicons/react/20/solid";
 
 const stats = [
-    { label: "Rs. XYZ", value: "Resume & Cut-e Test" },
-    { label: "Rs. XYZ", value: "Group Discussion" },
-    { label: "Rs. XYZ", value: "Personal Interview" },
-    { label: "Rs. XYZ", value: "Full Course" },
+    { label: "Rs. 4,500", value: "Resume & Cut-e Test" },
+    { label: "Rs. 6,500", value: "Group Discussion" },
+    { label: "Rs. 8,000", value: "Personal Interview" },
+    { label: "Rs. 17,000", value: "Full Course" },
 ];
 const values = [
     {
@@ -26,11 +26,11 @@ const values = [
     {
         name: "24/7 Mentorship:",
         description:
-            " Benefit from personal mentors round-the-clock, offering support and guidance throughout the curriculum.",
+            " Benefit from personal mentors addressing your doubts round-the-clock, offering support and guidance throughout the curriculum.",
         icon: HandRaisedIcon,
     },
     {
-        name: "Phased Approach",
+        name: "Phased Approach:",
         description:
             "Navigate adapt, group discussion and interviews with precision, ensuring thorough preparation for success in each step.",
         icon: UserGroupIcon,
@@ -252,7 +252,7 @@ export default function AICPP() {
                                     </h2>
                                     <ul className="list-disc list-inside text-white">
                                         <li>
-                                            A software for ADAPT Test
+                                            A software for Cut-e Test
                                             preparation –{" "}
                                             <span className="font-semibold text-[#bf9b30]">
                                                 FREE!
@@ -267,7 +267,7 @@ export default function AICPP() {
                                         </li>
                                         <li>
                                             Personality Questionnaire for
-                                            assessment –{" "}
+                                            psychometric assessment –{" "}
                                             <span className="font-semibold text-[#bf9b30]">
                                                 FREE!
                                             </span>
@@ -340,6 +340,24 @@ export default function AICPP() {
                             </div>
                         ))}
                     </dl>
+                </div>
+                <div className="mt-10 sm:mt-15 xl:mx-auto xl:max-w-5xl xl:px-8">
+                    <div className="course-container p-8 rounded-lg shadow-lg">
+                        <div className="additional-materials mt-2 flex items-center">
+                            <p className="text-xl flex-shrink-0">
+                                <span className="text-[#bf9b30]">Note: </span>
+                                Custom packages can be made as per the student's
+                                requirement. Please feel free to{" "}
+                                <a
+                                    href="/contact"
+                                    className="text-[#bf9b30] hover:underline"
+                                >
+                                    contact us{" "}
+                                </a>
+                                for the same.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </main>
         </div>

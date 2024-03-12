@@ -11,13 +11,13 @@ export default function GetInTouch() {
                                 Get in touch
                             </h2>
                             <p className="mt-4 leading-7 text-white">
-                                Piqued your interest while navigating our
-                                website? We invite you to take the next
-                                exhilarating step. Feel the freedom to get in
-                                touch and let the enchanting adventure of
-                                aviation unfold with Aerodemy aviation – where
-                                your journey begins in style. Buckle up,
-                                future aviators!!
+                                Piqued your interest while navigating our and
+                                interested in buying one of our courses? We
+                                invite you to take the next exhilarating step.
+                                Feel the freedom to get in touch and let the
+                                enchanting adventure of aviation unfold with
+                                Aerodemy Aviation – where your journey begins in
+                                style. Buckle up, future aviators!!
                             </p>
                         </div>
                         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">

@@ -1,7 +1,19 @@
 "use client";
 
 import { useState } from "react";
+const stats = [
+    { label: "\u00a0", value: "Flash course" },
+    { label: "35", value: "Days" },
+    { label: "2", value: "Hours per day" },
+    { label: "Rs. 35,000", value: "Course fees" },
+];
 
+const stats1 = [
+    { label: "\u00a0", value: "Full course" },
+    { label: "60", value: "Days" },
+    { label: "1", value: "Hours per day" },
+    { label: "Rs. 30,000", value: "Course fees" },
+];
 export default function AICPP() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -33,11 +45,9 @@ export default function AICPP() {
                             The DGCA (Directorate General of Civil Aviation)
                             subject on Technical General encompasses various
                             topics related to the general technical aspects of
-                            aircraft and aviation. The specific content may vary
-                            depending on the type of license or certification
-                            you are pursuing. Here is a general outline of key
-                            areas you may need to study for DGCA Technical
-                            General:
+                            aircraft and aviation. Here is a general outline of
+                            key areas you may need to study for DGCA Technical
+                            General.
                         </p>
                     </div>
                 </div>
@@ -45,7 +55,7 @@ export default function AICPP() {
                 {/* Content section */}
                 <div className="mx-auto mt-20 max-w-7xl px-6 lg:px-8">
                     <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-                        <div className="grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-300 lg:max-w-none lg:grid-cols-2">
+                        <div className="grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-300 lg:max-w-none lg:grid-cols-2 text-xl">
                             <p>
                                 <span className="text-[#bf9b30] bold">
                                     1. Aerodynamics
@@ -136,43 +146,61 @@ export default function AICPP() {
                                 other variables.
                             </p>
                         </div>
-                        <div className="flex justify-center mt-10 gap-10 flex-col lg:mt-20 lg:flex-row ">
-                            <div className="flex items-center gap-x-6">
-                                <a
-                                    href="/contact"
-                                    className="flex-1 rounded-md bg-gradient-to-tr text-xl from-[#bf9b30] to-[#ffdc73] px-10 py-6 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
-                                >
-                                    Buy Flash Course at <br />
-                                    <span className="text-white">Rs.XYZ</span>
-                                </a>
-                            </div>
-                            <div className="flex items-center gap-x-6">
-                                <a
-                                    href="/contact"
-                                    className="flex-1 rounded-md bg-gradient-to-tr text-xl from-[#bf9b30] to-[#ffdc73] px-10 py-6 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
-                                >
-                                    Buy DGCA Ground Classes at <br />
-                                    <span className="text-white">Rs.XYZ</span>
-                                </a>
-                            </div>
-                        </div>
                     </div>
                     {/*brochure */}
-                    <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-5xl xl:px-8">
-                        <div className="course-container p-8 rounded-lg shadow-lg">
-                            <div className="additional-materials mt-8">
-                                <p className="text-xl">
-                                    Always refer to the specific DGCA syllabus
-                                    and recommended study materials for accurate
-                                    and up-to-date information. Practical
-                                    training and hands-on experience, such as
-                                    aircraft maintenance or simulator sessions,
-                                    can complement your theoretical knowledge in
-                                    Technical General. Consider seeking guidance
-                                    from experienced instructors or aviation
-                                    professionals during your preparation.
-                                </p>
+                    <dl className="mt-30 grid grid-cols-1 gap-x-8 gap-y-12 sm:mt-20 sm:grid-cols-2 sm:gap-y-16 lg:mt-28 lg:grid-cols-4">
+                        {stats.map((stat, statIdx) => (
+                            <div
+                                key={statIdx}
+                                className="flex flex-col-reverse gap-y-3 border-l border-white/20 pl-6"
+                            >
+                                <dt className="text-base leading-7 text-gray-300">
+                                    {stat.label}
+                                </dt>
+                                <dd className="text-2xl font-semibold tracking-tight text-[#bf9b30]">
+                                    {stat.value}
+                                </dd>
                             </div>
+                        ))}
+                    </dl>
+                    <dl className="mt-30 grid grid-cols-1 gap-x-8 gap-y-12 sm:mt-20 sm:grid-cols-2 sm:gap-y-16 lg:mt-28 lg:grid-cols-4">
+                        {stats1.map((stats1, stats1Idx) => (
+                            <div
+                                key={stats1Idx}
+                                className="flex flex-col-reverse gap-y-3 border-l border-white/20 pl-6"
+                            >
+                                <dt className="text-base leading-7 text-gray-300">
+                                    {stats1.label}
+                                </dt>
+                                <dd className="text-2xl font-semibold tracking-tight text-[#bf9b30]">
+                                    {stats1.value}
+                                </dd>
+                            </div>
+                        ))}
+                    </dl>
+                    <br />
+                    <br />
+
+                    <div className="flex justify-center mt-10 gap-10 flex-col lg:mt-20 lg:flex-row text-center">
+                        <div className="flex items-center gap-x-6">
+                            <a
+                                href="/contact"
+                                className="flex-1 rounded-md bg-gradient-to-tr text-xl from-[#bf9b30] to-[#ffdc73] px-10 py-6 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                            >
+                                Flash Course
+                                <br />
+                                <span className="text-white">Rs. 35,000</span>
+                            </a>
+                        </div>
+                        <div className="flex items-center gap-x-6">
+                            <a
+                                href="/contact"
+                                className="flex-1 rounded-md bg-gradient-to-tr text-xl from-[#bf9b30] to-[#ffdc73] px-10 py-6 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                            >
+                                Full Course
+                                <br />
+                                <span className="text-white">Rs. 30,000</span>
+                            </a>
                         </div>
                     </div>
                 </div>
