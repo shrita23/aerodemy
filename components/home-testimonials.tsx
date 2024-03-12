@@ -43,34 +43,35 @@ export default function MyApp() {
                     <Slider>
                         <Slide index={0} tabIndex={0}>
                             <Testimonial
-                                name="Test"
-                                position="Test"
-                                testimonial="test"
+                                testimonial="The classes provided a focused, professional and structured approach to learning that helped me understand the subject. The course content was well-organized and they offered valuable resources and materials to practice. The instructor, Mr. Tushar was knowledgeable and engaging, making complex concepts easy to grasp.Throughout the course, I was provided personalized attention and support from the instructor, who was readily available to answer questions, be it day or night. 
+                                By the end of the course, I felt more confident in my abilities and had acquired the skills to glide through the exam. Highly recommended for anyone looking to deepen their understanding of aviation  in a supportive and enriching environment."
                                 image="/roshanraj.jpg"
+                                name="Roshan Raj"
+                                position="Air Navigation"
                             />
                         </Slide>
                         <Slide index={1}>
                             <Testimonial
-                                name="Test 2"
-                                position="Test"
-                                testimonial="test"
-                                image="/roshanraj.jpg"
+                                testimonial="These guys are excellent. They provide really good instruction’s and I have taken classes from them. They address all the  topics discussed in group discussions, as well as technical and HR inquiries. They regularly conduct mock exams and provide short & to the point notes . Time slots are also negotiable. I recently completed my personal interview and group discussion; the results are still pending, but I am confident that I will get accepted."
+                                image="/deepak.jpg"
+                                name="Deepak Bishnoi"
+                                position="AICPP"
                             />
                         </Slide>
                         <Slide index={2}>
                             <Testimonial
-                                name="Test 3"
-                                position="Test"
-                                testimonial="test"
-                                image="/roshanraj.jpg"
+                                testimonial="Studying for the DGCA Technical General course with aerodemy provided me with a comprehensive understanding of crucial aviation aspects. The well-structured curriculum covered aerodynamics, aircraft systems, engines, airframes, instruments, flight controls, weight and balance, regulations, emergency procedures, and principles of flight. This course not only equipped me with theoretical knowledge but also emphasized practical applications, ensuring a well-rounded preparation. The detailed outline and emphasis on real-world scenarios make it an invaluable resource for anyone pursuing a career in aviation. Highly recommended for aspiring aviation professionals."
+                                image="/ananyathapa.jpg"
+                                name="Ananya Thapa"
+                                position="Technical General"
                             />
                         </Slide>
                         <Slide index={3}>
                             <Testimonial
-                                name="Test 4"
-                                position="Test"
-                                testimonial="test"
-                                image="/roshanraj.jpg"
+                                testimonial="The ICPP Full Course is a game-changer, providing a holistic approach to success. Engaging English speaking classes boosted my confidence, while ADAPT Test Preparation and mock tests ensured I was well-prepared. Group Discussion Preparation offered practical insights, and Interview Practice, spanning 10 hours, was a crown jewel, simulating real-life scenarios and leaving me interview-ready. This course is a comprehensive, transformative experience that I highly recommend for anyone aiming to excel in their pursuits."
+                                image="/arpitkapoor.jpg"
+                                name="Arpit Kapoor"
+                                position="ICPP"
                             />
                         </Slide>
                     </Slider>

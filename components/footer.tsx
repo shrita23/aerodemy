@@ -7,9 +7,15 @@ const navigation = {
     ],
     socials: [
         { name: "Email", href: "mailto:aviationaerodemy@gmail.com" },
-        { name: "Instagram", href: "#" },
-        { name: "Telegram", href: "#" },
-        { name: "Whatsapp", href: "#" },
+        {
+            name: "Instagram",
+            href: "https://www.instagram.com/aerodemyaviation?igsh=eDVmYXI4ZWJ6OGw4",
+        },
+        { name: "Telegram", href: "https://t.me/aerodemyaviation" },
+        {
+            name: "Whatsapp",
+            href: "https://chat.whatsapp.com/D4SCa57L36y1wEiQEwOzwm",
+        },
     ],
     legal: [
         { name: "Privacy Policy", href: "/privpol" },
