@@ -147,44 +147,42 @@ export default function AICPP() {
                                 <br /> - Practical considerations for pilots.
                             </p>
                         </div>
-                        <div className="flex justify-center">
-                            <div className="mt-10 flex items-center gap-x-6">
+                        <div className="flex justify-center mt-10 gap-10 flex-col lg:mt-20 lg:flex-row ">
+                            <div className="flex items-center gap-x-6">
                                 <a
                                     href="/contact"
-                                    className="rounded-md bg-gradient-to-tr text-xl from-[#bf9b30] to-[#ffdc73] px-10 py-6 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
-                                    style={{ margin: "100px" }}
+                                    className="flex-1 rounded-md bg-gradient-to-tr text-xl from-[#bf9b30] to-[#ffdc73] px-10 py-6 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                                 >
                                     Buy Flash Course at <br />
                                     <span className="text-white">Rs.XYZ</span>
                                 </a>
                             </div>
-                            <div className="mt-10 flex items-center gap-x-6">
+                            <div className="flex items-center gap-x-6">
                                 <a
                                     href="/contact"
-                                    className="rounded-md bg-gradient-to-tr text-xl from-[#bf9b30] to-[#ffdc73] px-10 py-6 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
-                                    style={{ margin: "100px" }}
+                                    className="flex-1 rounded-md bg-gradient-to-tr text-xl from-[#bf9b30] to-[#ffdc73] px-10 py-6 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                                 >
                                     Buy DGCA Ground Classes at <br />
                                     <span className="text-white">Rs.XYZ</span>
                                 </a>
                             </div>
                         </div>
-                        {/*brochure */}
-                        <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-5xl xl:px-8">
-                            <div className="course-container p-8 rounded-lg shadow-lg">
-                                <div className="additional-materials mt-8">
-                                    <p className="text-xl">
-                                        Make sure to refer to the specific DGCA
-                                        syllabus and recommended study materials
-                                        for the most accurate and up-to-date
-                                        information. Additionally, practice
-                                        interpreting actual METAR and TAF
-                                        reports, and consider seeking guidance
-                                        from experienced instructors or
-                                        meteorologists to enhance your
-                                        understanding of aviation meteorology.
-                                    </p>
-                                </div>
+                    </div>
+                    {/*brochure */}
+                    <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-5xl xl:px-8">
+                        <div className="course-container p-8 rounded-lg shadow-lg">
+                            <div className="additional-materials mt-8">
+                                <p className="text-xl">
+                                    Make sure to refer to the specific DGCA
+                                    syllabus and recommended study materials for
+                                    the most accurate and up-to-date
+                                    information. Additionally, practice
+                                    interpreting actual METAR and TAF reports,
+                                    and consider seeking guidance from
+                                    experienced instructors or meteorologists to
+                                    enhance your understanding of
+                                    aviation meteorology.
+                                </p>
                             </div>
                         </div>
                     </div>

@@ -30,14 +30,14 @@ export default function AICPP() {
                             <span className="text-[#bf9b30]">Navigation</span>{" "}
                         </h2>
                         <p className="mt-6 text-lg leading-8 text-gray-300">
-                            To prepare for the DGCA (Directorate General of
-                            Civil Aviation) subject on Air Navigation,
-                            you&apos;ll need to cover a range of topics related
-                            to navigation in the context of civil aviation. The
-                            specific syllabus may vary, but generally, it
-                            includes fundamental concepts and principles
-                            relevant to air navigation. Here&apos;s a broad
-                            outline of the key areas you might need to study:
+                            The DGCA (Directorate General of Civil Aviation)
+                            subject on Technical General encompasses various
+                            topics related to the general technical aspects of
+                            aircraft and aviation. The specific content may vary
+                            depending on the type of license or certification
+                            you are pursuing. Here is a general outline of key
+                            areas you may need to study for DGCA Technical
+                            General:
                         </p>
                     </div>
                 </div>
@@ -48,104 +48,130 @@ export default function AICPP() {
                         <div className="grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-300 lg:max-w-none lg:grid-cols-2">
                             <p>
                                 <span className="text-[#bf9b30] bold">
-                                    1. Navigation Fundamentals:
+                                    1. Aerodynamics
                                 </span>
-                                <br /> - Basic principles of navigation.
-                                <br /> - Types of navigation (celestial,
-                                terrestrial, electronic).
-                                <br /> - Navigation aids and devices.
+                                <br /> - Basic principles of aerodynamics.
+                                <br /> - Forces acting on an aircraft (lift,
+                                drag, thrust, and weight).
+                                <br /> - Aircraft stability and control.
                             </p>
 
                             <p>
                                 <span className="text-[#bf9b30] bold">
-                                    2. Charts and Publications:
+                                    2. Aircraft Systems:
                                 </span>
                                 <br />
-                                - Interpretation of NOTAMs (Notices to Airmen)
-                                and other relevant publications.
-                                <br />- Understanding aeronautical charts
-                                (enroute, approach, and departure charts).
+                                - Understanding various aircraft systems
+                                (electrical, hydraulic, fuel, etc.).
+                                <br />- Operation and maintenance
+                                considerations.
                             </p>
                             <p>
                                 <span className="text-[#bf9b30] bold">
-                                    3. Radio Navigation:
+                                    3. Engines:
                                 </span>
-                                <br /> - VOR (VHF Omni-Directional Range)
-                                navigation.
-                                <br /> - NDB (Non-Directional Beacon)
-                                navigation.
-                                <br /> - GPS (Global Positioning System)
-                                principles.
+                                <br /> - Principles of aircraft engines (piston
+                                engines, turbine engines).
+                                <br /> - Engine components and systems.
                             </p>
                             <p>
                                 <span className="text-[#bf9b30] bold">
-                                    4. Instrumentation:
+                                    4. Airframes:
                                 </span>
-                                <br /> - Introduction to navigation instruments.
-                                <br /> - Use of autopilots and flight management
-                                systems.
+                                <br /> - Structure and materials of aircraft.
+                                <br /> - Inspection and maintenance of
+                                airframes.
                             </p>
                             <p>
                                 <span className="text-[#bf9b30] bold">
-                                    5. Navigation Regulations:
+                                    5. Instruments:
                                 </span>
-                                <br /> - Compliance with international and
-                                national regulations.
-                                <br /> - Rules of the air.
+                                <br /> - Basic principles of flight instruments.
+                                <br /> - Navigation instruments.
+                                <br /> - Communication instruments.
                             </p>
                             <p>
                                 <span className="text-[#bf9b30] bold">
-                                    6. Emergency Navigation
+                                    6. Flight Controls:
                                 </span>
-                                <br /> - Procedures for navigation in emergency
-                                situations.
+                                <br /> - Types of flight controls (ailerons,
+                                elevators, rudders).
+                                <br /> - Aircraft control surfaces and their
+                                functions.
                             </p>
                             <p>
                                 <span className="text-[#bf9b30] bold">
-                                    7. Practical Navigation Exercises:
+                                    7. Weight and Balance:
                                 </span>
-                                <br /> - Plotting courses on charts.
-                                <br /> - Flight planning and navigation
-                                calculations.
+                                <br /> - Understanding the importance of weight
+                                and balance in aviation.
+                                <br /> - Calculation of weight and balance for
+                                different configurations.
+                            </p>
+                            <p>
+                                <span className="text-[#bf9b30] bold">
+                                    8. Aviation Regulations:
+                                </span>
+                                <br /> - Compliance with technical regulations
+                                and standards.
+                                <br /> - Certification requirements for aircraft
+                                and components.
+                            </p>
+                            <p>
+                                <span className="text-[#bf9b30] bold">
+                                    9. Emergency Procedures:
+                                </span>
+                                <br /> - Emergency systems and equipment on
+                                aircraft.
+                                <br /> - Procedures for handling various
+                                emergencies.
+                            </p>
+                            <p>
+                                <span className="text-[#bf9b30] bold">
+                                    9. Principles of Flight:
+                                </span>
+                                <br /> - Understanding the factors affecting the
+                                performance of an aircraft.
+                                <br /> - Effect of altitude, temperature, and
+                                other variables.
                             </p>
                         </div>
-                        <div className="flex justify-center">
-                            <div className="mt-10 flex items-center gap-x-6">
+                        <div className="flex justify-center mt-10 gap-10 flex-col lg:mt-20 lg:flex-row ">
+                            <div className="flex items-center gap-x-6">
                                 <a
                                     href="/contact"
-                                    className="rounded-md bg-gradient-to-tr text-xl from-[#bf9b30] to-[#ffdc73] px-10 py-6 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
-                                    style={{ margin: "100px" }}
+                                    className="flex-1 rounded-md bg-gradient-to-tr text-xl from-[#bf9b30] to-[#ffdc73] px-10 py-6 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                                 >
                                     Buy Flash Course at <br />
                                     <span className="text-white">Rs.XYZ</span>
                                 </a>
                             </div>
-                            <div className="mt-10 flex items-center gap-x-6">
+                            <div className="flex items-center gap-x-6">
                                 <a
                                     href="/contact"
-                                    className="rounded-md bg-gradient-to-tr text-xl from-[#bf9b30] to-[#ffdc73] px-10 py-6 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
-                                    style={{ margin: "100px" }}
+                                    className="flex-1 rounded-md bg-gradient-to-tr text-xl from-[#bf9b30] to-[#ffdc73] px-10 py-6 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                                 >
                                     Buy DGCA Ground Classes at <br />
                                     <span className="text-white">Rs.XYZ</span>
                                 </a>
                             </div>
                         </div>
-                        {/*brochure */}
-                        <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-5xl xl:px-8">
-                            <div className="course-container p-8 rounded-lg shadow-lg">
-                                <div className="additional-materials mt-8">
-                                    <p className="text-xl">
-                                        Remember to refer to the specific DGCA
-                                        syllabus and recommended study materials
-                                        for the most accurate and up-to-date
-                                        information. Additionally, practical
-                                        experience, simulations, and hands-on
-                                        training may be crucial for a
-                                        comprehensive understanding of air
-                                        navigation concepts.
-                                    </p>
-                                </div>
+                    </div>
+                    {/*brochure */}
+                    <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-5xl xl:px-8">
+                        <div className="course-container p-8 rounded-lg shadow-lg">
+                            <div className="additional-materials mt-8">
+                                <p className="text-xl">
+                                    Always refer to the specific DGCA syllabus
+                                    and recommended study materials for accurate
+                                    and up-to-date information. Practical
+                                    training and hands-on experience, such as
+                                    aircraft maintenance or simulator sessions,
+                                    can complement your theoretical knowledge in
+                                    Technical General. Consider seeking guidance
+                                    from experienced instructors or aviation
+                                    professionals during your preparation.
+                                </p>
                             </div>
                         </div>
                     </div>
