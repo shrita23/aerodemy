@@ -316,8 +316,8 @@ export default function ICPP() {
                         <div className="additional-materials mt-2 flex items-center">
                             <p className="text-xl flex-shrink-0">
                                 <span className="text-[#bf9b30]">Note: </span>
-                                Custom packages can be made as per the student's
-                                requirement. Please feel free to{" "}
+                                Custom packages can be made as per the
+                                student&apos;s requirement. Please feel free to{" "}
                                 <a
                                     href="/contact"
                                     className="text-[#bf9b30] hover:underline"
