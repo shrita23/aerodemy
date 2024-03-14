@@ -120,7 +120,7 @@ export default function AICPP() {
                                 calculations.
                             </p>
                         </div>
-
+                        <br />
                         {/*brochure */}
                         <dl className="mt-30 grid grid-cols-1 gap-x-8 gap-y-12 sm:mt-20 sm:grid-cols-2 sm:gap-y-16 lg:mt-28 lg:grid-cols-4">
                             {stats.map((stat, statIdx) => (
