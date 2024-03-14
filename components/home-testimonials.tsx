@@ -61,16 +61,16 @@ export default function MyApp() {
                         <Slide index={2}>
                             <Testimonial
                                 testimonial="Studying for the DGCA Technical General course with aerodemy provided me with a comprehensive understanding of crucial aviation aspects. The well-structured curriculum covered aerodynamics, aircraft systems, engines, airframes, instruments, flight controls, weight and balance, regulations, emergency procedures, and principles of flight. This course not only equipped me with theoretical knowledge but also emphasized practical applications, ensuring a well-rounded preparation. The detailed outline and emphasis on real-world scenarios make it an invaluable resource for anyone pursuing a career in aviation. Highly recommended for aspiring aviation professionals."
-                                image="/ananyathapa.jpg"
-                                name="Ananya Thapa"
+                                image="/anon.png"
+                                name="Anonymous"
                                 position="Technical General"
                             />
                         </Slide>
                         <Slide index={3}>
                             <Testimonial
                                 testimonial="The ICPP Full Course is a game-changer, providing a holistic approach to success. Engaging English speaking classes boosted my confidence, while ADAPT Test Preparation and mock tests ensured I was well-prepared. Group Discussion Preparation offered practical insights, and Interview Practice, spanning 10 hours, was a crown jewel, simulating real-life scenarios and leaving me interview-ready. This course is a comprehensive, transformative experience that I highly recommend for anyone aiming to excel in their pursuits."
-                                image="/arpitkapoor.jpg"
-                                name="Arpit Kapoor"
+                                image="/anon.png"
+                                name="Anonymous"
                                 position="ICPP"
                             />
                         </Slide>
