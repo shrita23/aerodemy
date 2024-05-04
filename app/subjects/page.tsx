@@ -16,7 +16,7 @@ const posts = [
 
     {
         id: 2,
-        title: "Avation Meteorology",
+        title: "Aviation Meteorology",
         href: "/avmet",
         description: "",
         imageUrl: "/airmet.jpg",

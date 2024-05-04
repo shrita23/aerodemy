@@ -5,14 +5,14 @@ const stats = [
     { label: "\u00a0", value: "Flash course" },
     { label: "14", value: "Days" },
     { label: "2", value: "Hours per day" },
-    { label: "Rs. 20,000", value: "Course fees" },
+    { label: "Rs. 22,000", value: "Course fees" },
 ];
 
 const stats1 = [
     { label: "\u00a0", value: "Full course" },
     { label: "25", value: "Days" },
     { label: "1", value: "Hours per day" },
-    { label: "Rs. 15,000", value: "Course fees" },
+    { label: "Rs. 17,000", value: "Course fees" },
 ];
 export default function AICPP() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
