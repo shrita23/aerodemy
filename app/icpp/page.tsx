@@ -2,7 +2,7 @@ import ICPP from "@/components/icpp";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "ICPP",
+    title: "Indigo Cadet Pilot Program",
     description: "Description here",
 };
 

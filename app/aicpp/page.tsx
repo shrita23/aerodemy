@@ -2,7 +2,7 @@ import AICP from "@/components/aicpp";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "AICPP",
+    title: "Air India Cadet Pilot Program",
     description: "Description here",
 };
 
